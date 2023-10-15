@@ -27,7 +27,7 @@ already = []
 async def Call():
     while not await asyncio.sleep(1.5):
         print(len(already))
-        if len(already) == 2:
+        if len(already) == 114:
             already.clear()
         if already:
             surah = quran[already.index(already[-1]) + 1]
