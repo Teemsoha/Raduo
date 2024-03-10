@@ -56,7 +56,7 @@ async def Call():
                     else:
                         await call.join_group_call(
                             CHAT_ID,
-                            AudioPiped(sound_url),
+                            pytgcalls.types.MediaStream(audio=pytgcalls.types.InputFile(file=AudioPiped(sound_url))),
                             join_as=await app.resolve_peer(CHANNEL_USERNAMWE)
                         )
                     channel = await app.invoke(GetFullChannel(channel=await app.resolve_peer(CHAT_ID)))
