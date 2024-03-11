@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 from pytgcalls import idle
-from pytgcalls.types import AudioPiped
+from pytgcalls.types import MediaStream
 
 from pyrogram.raw.functions.channels import GetFullChannel
 from pyrogram.raw.functions.phone import EditGroupCallTitle
