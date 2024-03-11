@@ -27,7 +27,7 @@ already = []
 async def Call():
     while not await asyncio.sleep(1.5):
         print(len(already))
-        if len(already) == 2:
+        if len(already) == 114:
             already.clear()
         if already:
             surah = quran[already.index(already[-1]) + 1]
@@ -51,12 +51,12 @@ async def Call():
                     if not CHANNEL_USERNAMWE:
                         await call.join_group_call(
                             CHAT_ID,
-                            pytgcalls.types.InputFile(file=AudioPiped(sound_url)),
+                            AudioPiped(sound_url),
                         )
                     else:
                         await call.join_group_call(
                             CHAT_ID,
-                            pytgcalls.types.InputFile(file=AudioPiped(sound_url)),           
+                            AudioPiped(sound_url),
                             join_as=await app.resolve_peer(CHANNEL_USERNAMWE)
                         )
                     channel = await app.invoke(GetFullChannel(channel=await app.resolve_peer(CHAT_ID)))
