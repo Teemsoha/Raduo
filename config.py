@@ -1,7 +1,7 @@
 import os
 
 API_ID = int(os.getenv("API_ID", "13251350"))
-CHAT_ID = int(os.getenv("CHAT_ID", "chat id here"))
-CHANNEL_USERNAMWE = os.getenv("CHANNEL_USERNAMWE", None)
+CHAT_ID = int(os.getenv("CHAT_ID", "-1001179683551"))
+CHANNEL_USERNAMWE = os.getenv("CHANNEL_USERNAMWE","nc505")
 API_HASH = os.getenv("API_HASH", "66c0eacb36f9979ae6d153f207565cd6")
-SESSION_STRING = os.getenv("SESSION_STRING", "session string here") # To Extract string_session just run "String.py"
+SESSION_STRING = os.getenv("SESSION_STRING", "AQBdrLTtzPflNKhxOwTVYwzC9SKrMBIZ0-vXO2QHYfs3XijtUl-5yismXZIzUp-ZQNGzSXdKZGSKOG6eyNCajN0q1ikCyF6q8MDZXK93SZ5ngcPnc57m4IG9SdWRlnYQs0x0xpYwJXu5lUSISib1OgOqUiygkmi_kCLo8HWZU86zmMrZjyvx1PVSlC91HDDfDPpi2XIoiIg_PhD8R9peACMmE3x-MDLtXqy9Gu8bQzS6FTmJqFUP1JZsxQFeNd3piCAy0wwTKN1OXLN3kULaH9hYAgjxZueeHVUczJRuv8s2-wV1GeSF9DeM_cmXDXnCxawcXvTV-KVuY496aiz0dYdTGuo_6gA") # To Extract string_session just run "String.py"
